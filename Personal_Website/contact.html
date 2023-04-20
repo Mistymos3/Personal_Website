@@ -9,8 +9,8 @@
 </head>    
 <body>
     <header>
-        <nav class="navTabs">
-            <span class="logo">Iva</span>
+        <nav class="navBar">
+            <div class="logo">IMJ</div>
             <div class="nav_right">
                 <a href="./index.html" id="right">Home</a>
                 <a href="./about.html" id="right">About</a>
@@ -23,12 +23,27 @@
     <section>
         <h1>Contact me</h1>
     </section>
-    
+    <div class = "contactInfo">
+        <ul>
+            <li><strong> Email: </strong><a href="#">someplace@gmail.com</a></li>
+            <li><strong> Github: </strong><a href="#">sample name</a></li>
+            <li><strong> Portfolio: </strong><a href="#">coming soon</a></li>
+        </ul>
+    </div>
     <div class = "container">
         <div class = "column">
+            <label for = "fname">First Name:</label>
+            <input class = "input" type = "text" id = "input">
+
+            <label for = "lname">Last Name:</label>
+            <input class = "input" type = "text" id = "input">
+            
             <label for = "email">Email:</label>
-            <input type = "text" id = "input">
+            <input class = "input" type = "text" id = "input">
+            
+            <input  class ="submit_button" type = "submit" value = "submit" id = "submit">    
         </div>
+
     </div>
 
 
@@ -45,6 +60,6 @@
             <img class = "media-link" src="images/twitter.svg" alt = "twitter icon">
         </a>
     </footer>
-    <script scr="./javascript.js"></script>
+    <script src = "script.js"></script>
 </body>
 </html>
